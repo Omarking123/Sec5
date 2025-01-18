@@ -1,11 +1,18 @@
 ﻿
 using Sec5.abstraction;
+using Sec5.Sealed;
 using Sec5.Static;
 
 namespace Sec5
 {
     internal class Program
     {
+        #region video 3
+        //static void ClcPayment(PaymentProcessor processor)
+        //{
+        //    processor.ProccessPayment(100);
+        //} 
+        #endregion
         static void Main(string[] args)
         {
             #region First Video 
