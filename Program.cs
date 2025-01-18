@@ -1,4 +1,6 @@
-﻿using Sec5.abstraction;
+﻿
+using Sec5.abstraction;
+using Sec5.Static;
 
 namespace Sec5
 {
@@ -32,7 +34,15 @@ namespace Sec5
             //Console.WriteLine(circleArea); 
             #endregion
 
+            #region Video 2
+            Utility1 U01 = new Utility1(1, 2);
+            //Utility1 U02 = new Utility1(5,10);
 
+            Console.WriteLine(Utility1.CmToInch(254));
+            Console.WriteLine(Utility1.CmToInch(254));
+
+            Console.WriteLine(Utility1.CalcCircleArea(10)); 
+            #endregion
         }
     }
 }
